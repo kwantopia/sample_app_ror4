@@ -8,6 +8,7 @@ gem 'rails', '4.0.2'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+  gem 'guard-rspec'
 end
 
 group :test do
@@ -57,3 +58,5 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
+
+gem 'unicorn'
